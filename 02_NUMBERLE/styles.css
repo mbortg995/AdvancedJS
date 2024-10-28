@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: antiquewhite;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background-color: blueviolet;
+  height: 50vh;
+  width: 100%;
+}
+
+.keyboard{
+  height: 35vh;
+  background-color: cadetblue;
+  width: 100%;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
