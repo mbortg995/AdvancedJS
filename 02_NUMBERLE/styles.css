@@ -15,14 +15,39 @@
 
 .main{
   background-color: blueviolet;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+}
+
+.square{
+  height: 50px;
+  width: 50px;
+  background-color: azure;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .keyboard{
-  height: 35vh;
+  height: 15vh;
   background-color: cadetblue;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1{
