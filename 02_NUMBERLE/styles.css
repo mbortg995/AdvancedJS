@@ -50,6 +50,22 @@
   justify-content: center;
 }
 
+.number{
+  height: 40px;
+  width: 25px;
+}
+
+.enter{
+  height: 40px;
+  width: 55px;
+}
+
+.return{
+  height: 40px;
+  width: 55px;
+}
+
+
 h1{
   display: flex;
   align-items: center;
