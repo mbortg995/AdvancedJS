@@ -75,6 +75,7 @@ function set_button(i){
   keyboard_div.appendChild(number_button);
   number_button.classList.add('number');
   number_button.innerText = i;
+  number_button.addEventListener('click', () => console.log(i)); // INNER TEXT EN CUADRO Q CORRESPONDA.
 }
 // Create a set of 5 squares lined-up.
 function set_square_line(matrix_div){
@@ -99,8 +100,8 @@ function main(){
   const root_id = document.getElementById('root');
   create_panels(root_id);
   set_title(numberle);
-  set_keyboard();
   set_matrix();
+  set_keyboard();
 }
 
 main();
