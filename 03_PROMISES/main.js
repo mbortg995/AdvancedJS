@@ -1,8 +1,6 @@
 const endpoint = 'https://uselessfacts.jsph.pl/api/v2/facts/random';
 
-async function main(){
-
-
+function main(){
 
   const main_div = document.getElementById('root');
 
